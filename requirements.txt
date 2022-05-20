@@ -1,0 +1,5 @@
+aiohttp ~= 3.0
+qtoml ~= 0.3.1
+anyio ~= 3.0
+aiosqlite ~= 0.17.0
+pendulum ~= 2.0

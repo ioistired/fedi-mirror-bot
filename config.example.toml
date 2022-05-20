@@ -1,0 +1,4 @@
+site = "https://botsin.space"
+access_token = ""
+timestamp_path = "last_post.timestamp"
+account = "example_1@example.com"
