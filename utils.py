@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 
 import anyio
+import itertools
 import contextlib
 from functools import wraps
 
@@ -19,3 +20,17 @@ def as_async_cm(cls):
 	return wrapped
 
 suppress = as_async_cm(contextlib.suppress)
+
+def loading_spinner():
+	return itertools.cycle('\b' + x for x in [
+		'⠋',
+		'⠙',
+		'⠹',
+		'⠸',
+		'⠼',
+		'⠴',
+		'⠦',
+		'⠧',
+		'⠇',
+		'⠏',
+	])

@@ -3,3 +3,4 @@ qtoml ~= 0.3.1
 anyio ~= 3.0
 aiosqlite ~= 0.17.0
 pendulum ~= 2.0
+cursor ~= 1.3
