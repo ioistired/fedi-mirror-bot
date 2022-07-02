@@ -14,11 +14,7 @@ $ # fill out config.toml as needed
 $ ./mirror_bot.py
 ```
 
-Every time you run mirror_bot.py, the timestamp of the last post on the original account
-will be checked against the timestamp file. If newer, the last post will be mirrored.
-
-This should therefore be run as often as the original bot posts (e.g. using cron),
-because any less often and the bot will miss some posts.
+Every time you run mirror_bot.py, all posts since the last run will be mirrored.
 
 ## License
 
